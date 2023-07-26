@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Portfólio | Luana Karlla Silva - Desenvolvedora Front-End</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!--links externos Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+
+    <!--Estilo Customizado-->
+    <link rel="stylesheet" href="estilo/style.css">
+
+  </head>
+  <body>
+        <header><!--Inicio cabeçhalho-->
+            <nav class="navbar navbar-expand-sm navbar-light corFundo">
+                <div class="container">
+                    <h1 class="display-5 text-white mt-4">Portfó<span class="cor">lio</span></h1>
+                    <!--para smartphone os icones aparecem ao clicar no menu humburguer-->
+                    <button class="navbar navbar-toggler bg-light" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon"></span> 
+                    </button>
+    
+                    <div class="collapse navbar-collapse" id="nav-principal">
+                        <ul class="navbar-nav ml-auto mt-4">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link text-white ml-5">Início</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#sobremim" class="nav-link text-white ml-5">Sobre Mim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#habilidades" class="nav-link text-white ml-5">Habilidades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#projetos" class="nav-link text-white ml-5">Projetos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contato" class="nav-link text-white ml-5">Contato</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="col-md-4 d-flex">
+                                    <a href="https://www.instagram.com/lkstudio01/" target="_blank" class="btn btn-outline-primary ml-2">
+                                      <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                    <a href="https://www.artstation.com/luanakarlla" target="_blank" class="btn btn-outline-primary ml-2">
+                                        <i class="fa-brands fa-artstation"></i>
+                                    </a>
+                                  </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </nav>
+        </header><!--Fim cabeçhalho-->
+        <section class="corFundo"><!--inicio da seção-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex mt-4 mb-5"><!--textos seção-->
+
+                    <div class="align-self-center">
+                     <p class="cor mt-5 pt-5">Olá, meu nomé é</p>
+                    <h1 class="text-white">Luana Karlla <span class="cor">Silva</span></h1>
+                    <p class="text-white mt-3">Eu sou desenvolvedora Front-End</p>
+                    <p class="text-white">e Modeladora 3D</p>
+
+                    <!--aqui configurar ao clicar abrir o e-mail-->
+                    <!--<button type="button" class="btn btn-primary btn-lg ml-4 btn-custom">Entre em Contato </button>-->
+                    <a href="mailto:karlla_1911@hotmail.com" rel="noopener noreferrer" class="btn btn-primary btn-lg btn-custom">Entre em Contato</a>
+                </div>
+            </div>
+
+             <!--video 3D-->
+        <div class="col-md-6 d-none d-md-block" id="modelo3D">
+            <model-viewer src="ativos/ilha.gltf" alt="model robot" auto-rotate camera-controls ar environment-src="ativos/ilha.gltf"></model-viewer>
+        </div>
+        </section><!--final da seção-->
+
+        <section class="corFundo"><!--inicio Sobre Mim-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-flex mt-5 mb-5 text-center">
+                        <div class="align-self-center">
+                            <h2 class="text-white  mt-5 mb-5 destaque">Sobre Mim<a name="sobremim"></a></h2>
+                            <p class="text-white mt-5 mb-5">Desenvolvedora Front-End com conhecimento em Html, Css, Bootstrap e JavaScript. Modeladora 3D com conhecimento em Retopologia, Mapeamento UV, Brocagem e Detalhamento utilizando ferramentas como Blender, Krita e Photoshop. Formada em Engenharia da Computação  e cursando Sistemas para Internet na Universidade São Judas Tadeu.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section><!--fim Sobre Mim-->
+
+        <section class="corFundo"><!--inicio título Habilidades-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mt-5 mb-5">
+                        <h2 class="text-white mt-5 mb-5 destaque">Habilidades<a name="habilidades"></a></h2>
+                    </div><!--fim do titulo Habilidades-->
+                    
+                    <div class="container"><!--inicio container-->
+                        <div class="d-flex justify-content-center flex-row flex-wrap mb-5 destaque"> 
+
+                            <div class="item ml-5">
+                                <p class="mb-0 mt-2">Html</p>
+                                <img src="imagens/html.svg" class="img-fluid d-md-block pb-3 mb-4" alt="html">
+                            </div>
+                            <div class="item ml-5">
+                                <p class="mb-0 mt-2">Css</p>
+                                <img src="imagens/css3.svg" class="img-fluid d-md-block pb-3 mb-4" alt="html">
+                            </div>
+                            <div class="item ml-5">
+                                <p class="mb-0 mt-3">Javascript</p>
+                                <img src="imagens/javascript.svg" class="img-fluid d-md-block  pb-4" alt="html">
+                            </div>
+                            <div class="item ml-5">
+                                <p class="mb-0 mt-3">BootStrap</p>
+                                <img src="imagens/bootstrap.svg" class="img-fluid d-md-block  pb-4" alt="html">
+                            </div>
+                            <div class="item ml-5">
+                                <p class="mb-0 mt-3">Blender</p>
+                                <img src="imagens/blender.svg" class="img-fluid d-md-block  pb-3" alt="html">
+                            </div>
+                    </div><!--fim container caixa-->
+
+                </div>
+
+            </div>     
+        </section><!--Fim Habilidades-->
+
+        <section class="corFundo"><!--Início Projetos-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mt-5">
+                        <h2 class="text-white mt-5 mb-5 destaque">Projetos <a name="projetos"></a></h2>
+                    </div>
+
+                    <div class="container"><!--inicio container-->
+                        <div class="d-flex justify-content-center flex-row flex-wrap mb-5 destaque"> 
+                            <div class="item2 ml-5">
+                               <!-- <p>-imagem;</p>-->
+                                 <p class="mt-5 text-white">Em Breve</p>
+                                 <i class="fa-solid fa-lightbulb icones" style="color: rgb(246, 250, 8);"></i>
+                            </div>
+                            <div class="item2 ml-5">
+                                <!--<p>-imagem;</p>-->
+                                <p class="mt-5 text-white">Em Breve</p>
+                                <i class="fa-solid fa-lightbulb icones" style="color: rgb(246, 250, 8);"></i>
+                            </div>
+                        
+                        </div>
+                    </div><!--fim container caixa-->
+                </div>
+            </div>  
+        </section><!--Fim Projetos-->
+
+        <section class="corFundo "><!--Início Contatos-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mt-5">
+                        <h2 class="text-white mt-5 mb-5 destaque">Contatos <a name="contato"></a></h2>
+                    </div>
+                   
+                    <div class="container"><!--inicio container-->
+                        <div class="d-flex justify-content-center flex-row flex-wrap mb-5 destaque"> 
+
+                            <div class="ml-5">
+                                <ul class="navbar-nav ml-auto mt-4 mb-5 elemento">
+                                    <li>
+                                        <a href="mailto:karlla_1911@hotmail.com" class="btn btn-outline-primary ml-2">
+                                            <i class="fa-solid fa-square-envelope contatos" style="color: white;"></i>
+                                        </a>
+                                        <p class="mb-0 mt-2 text-white">E-mail</p>
+                                        <p class="mb-0 mt-2 text-secondary fonte-texto">karlla_1911@hotmail.com</p>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="ml-5">
+                                <ul class="navbar-nav ml-auto mt-4 mb-5 elemento">
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/luanakarllasilva/" target="_blank" class="btn btn-outline-primary ml-2">
+                                            <i class="fa-brands fa-linkedin contatos" style="color: white;"></i>
+                                        </a>
+                                        <p class="mb-0 mt-2 text-white">Linkedin</p>
+                                        <p class="mb-0 mt-2 text-secondary fonte-texto">@luanakarllasilva</p>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="ml-5">
+                                <ul class="navbar-nav ml-auto mt-4 mb-5 elemento">
+                                    <li>
+                                        <a href="https://github.com/luana-karlla" target="_blank" class="btn btn-outline-primary ml-2">
+                                            <i class="fa-brands fa-github contatos" style="color: white;"></i>
+                                        </a>
+                                        <p class="mb-0 mt-2 text-white">GitHub</p>
+                                        <p class="mb-0 mt-2 text-secondary fonte-texto">@luana-karlla</p>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                            <div class="ml-5">
+                                <ul class="navbar-nav ml-auto mt-4 mb-5 elemento">
+                                    <li>
+                                        <a href="https://www.artstation.com/luanakarlla" target="_blank" class="btn btn-outline-primary ml-2">
+                                            <i class="fa-brands fa-artstation contatos" style="color: white;"></i>
+                                        </a>
+                                        <p class="mb-0 mt-2 text-white">Artstation</p>
+                                        <p class="mb-0 mt-2 text-secondary fonte-texto">@luanakarlla</p>
+                                    </li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+        
+                        
+                    </div><!--fim container caixa-->
+                </div>
+           </div>    
+
+        </section><!--Fim Contatos-->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-white mt-2 text-center fonte-texto">&copy; 2023 Luana Karlla Silva</h2>
+                    </div>
+                
+            </div>
+        </footer>
+       
+
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--links externos JavaScript-->
+    <!--kit fontawsome-->
+    <script src="https://kit.fontawesome.com/07d54d2d89.js" crossorigin="anonymous"></script>
+
+    <!-- Import the component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
+  </body>
+</html>

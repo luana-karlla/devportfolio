@@ -1,0 +1,190 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+:root{/*arvore - variaveis globais e toda variavel em css começa com --*/
+    --cor0: #135D80;
+    --cor1: #73D3FF;
+    --cor2: #26BBFF;
+    --cor3: #396980;
+    --cor4: #1F95CC; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+.cor{
+    /*color: rgb(249, 0, 77);*/
+    /*color: #1F95CC;*/
+    color: var(--cor4);
+}
+.corFundo{
+    background-color: black;
+}
+
+.navbar-nav{
+    font-size: 1.1em;
+}
+
+.navbar-nav > li > a:hover {
+    /*color: rgb(249, 0, 77)!important;*/
+    color: var(--cor1)!important;
+}
+  
+.btn-custom{
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+.destaque{
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+#modelo3D{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: calc(50%-250px);
+    right: 14%;
+}
+
+#modelo3D img, model-viewer{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: -20px;
+    left: -50px;
+}
+
+/*Uso de Flexbox Seção Habilidades*/
+/*#conteudo{
+    background-color: black;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;     
+}*/
+
+/*Uso de Flexbox Seção Projetos*/
+.item{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: var(--cor1);
+    border: 1px solid var(--cor1);
+    border-radius: 80px;
+    transition-duration: 10.s;    
+}
+
+.item2{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    background-color: rgba(6, 89, 145, 0.205);
+    border: 1px solid var(--cor0);
+    border-radius: 10px;
+}
+
+section .item:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+img{
+    max-width: 25px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    margin: auto;
+    display: block;   
+}
+
+.icones{
+    font-size: 70px;
+}
+
+/*formatação Icones Contatos*/
+.contatos{
+    font-size: 3.3em;
+    /*color: a cor*/
+}
+
+.elemento:hover{
+    transform: scale(1.2);
+}
+
+.fonte-texto{
+    font-size: 1.2em;
+}
+
+/*footer*/
+
+footer{
+    background-color: var(--cor0);
+}
+
+/* Dispositivos extra small (telefones em modo retrato, com menos de 576px)*/
+@media (max-width: 575.98px) { 
+    .btn-custom{
+        margin: 10px 15px;
+        font-size: 1em;
+    }
+ }
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1{
+        font-size: 2em;
+    }
+    .btn-custom{
+        margin: 10px 15px;
+    }
+ }
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    h1{
+        font-size: 3em;
+    }
+
+    #modelo3D{
+        height: 300px;
+        width: 300px;
+        /*position: absolute;
+        top: calc(50%-250px);
+        right: 14%;*/
+    }
+ }
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    h1{
+        font-size: 4em;
+    }
+
+    #modelo3D{
+        height: 300px;
+        width: 300px;
+        /*position: absolute;
+        top: calc(50%-250px);
+        right: 14%;*/
+    }
+ }
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) { 
+    h1{
+        font-size: 3em;
+    }
+ }
